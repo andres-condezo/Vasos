@@ -28,14 +28,11 @@
 .header-button:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
-.align{
-    display: flex;
-    align-items: center;
-}
 .primary-button{
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    display: inline-block
+    display: flex;
+    align-items: center;
 }
 .secondary-button{
     color: var(--primary-color);
@@ -119,6 +116,7 @@ header nav ul li a:hover{
 }
 #portada #info-container #content #button-container{
     padding: 40px 0 100px 0;
+    display: flex;
 }
 .material-icons-outlined{
     margin: 0 10px 0 0;
