@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vasos ecologicos</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
 <body>    
 <div id="main-container" >
@@ -22,7 +23,7 @@
                 </ul>
             </nav>
             <div id="main-button">
-                <a href="#">Panel Kilenta Biznesowego</a>
+                <a class="header-button" href="#">Panel Kilenta Biznesowego</a>
             </div>
         </header>
         <div id="portada">
@@ -30,12 +31,17 @@
                 <div id="content">
                     <h1>Ekologiczne kubki. Naturalnie, bez plastiku</h1>
                     <ul>
-                        <li>W 100% kompostowalne</li>
-                        <li>Zero plastiku</li>
-                        <li>Kupując współfinansujesz ochronę Bałtyku</li>
+                        <li><img id="bullet" src="img/ico_check.svg" alt=""> <div id="text-content" >W 100% kompostowalne</div></li>
+                        <li><img id="bullet" src="img/ico_check.svg" alt=""> <div id="text-content" >Zero plastiku</div></li>
+                        <li><img id="bullet" src="img/ico_check.svg" alt=""> <div id="text-content" >Kupując <a href="#">współfinansujesz ochronę Bałtyku</a> </div></li>
                     </ul>
                     <div id="button-container">
-                        <a href="#">Zamów</a><a href="#">Dowiedz się więcej</a>
+                        <a href="#" class="btn primary-button" >
+                            <div class="align">
+                                <i class="material-icons-outlined">shopping_basket</i>Zamów
+                            </div>    
+                        </a>
+                        <a href="#" class="btn secondary-button">Dowiedz się więcej</a>
                     </div>
                 </div>
                 <div id="cover">
