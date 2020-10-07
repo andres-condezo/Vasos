@@ -23,7 +23,7 @@
     transition: background-color 0.3s;
     outline: none;
     font-weight: 500;
-    margin: 30px 10px 30px 0;
+    margin: 0 10px 0 0;
 }
 .header-button:hover{
     background-color: rgba(255, 255, 255, 0.1);
@@ -37,6 +37,9 @@
 .secondary-button{
     color: var(--primary-color);
     background-color: rgba(255, 255, 255, 0.1);
+}
+.material-icons-outlined{
+    margin: 0 10px 0 0;
 }
 body{
     padding: 0;
@@ -115,11 +118,38 @@ header nav ul li a:hover{
     outline: none;
 }
 #portada #info-container #content #button-container{
-    padding: 40px 0 100px 0;
+    display: flex;
+    align-items: center;   
+    margin: 40px 0 80px 0; 
+}
+#features-container{
+    background-color: var(--accent-color);
+    display: flex;
+
+}
+#features-container #features-layout{
+    background-color: var(--accent-color);
+    width: 60%;
+    margin: 0 auto;
+}
+#features-container #features-layout #features-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+}
+#features-container #features-layout #features-items .feature-item{
+    font-size: 13px;
+    padding: 30px 15px;
     display: flex;
     align-items: center;
-    
+    width: 20%;
 }
-.material-icons-outlined{
-    margin: 0 10px 0 0;
+#features-container #features-layout #features-items .feature-item img {
+    width: 40%;
+}
+
+#features-container #pink-space{
+    background-color: var(--primary-color);
+    width: 40%;
 }
