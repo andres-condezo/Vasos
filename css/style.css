@@ -31,7 +31,7 @@
 .primary-button{
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 .secondary-button{
@@ -117,6 +117,8 @@ header nav ul li a:hover{
 #portada #info-container #content #button-container{
     padding: 40px 0 100px 0;
     display: flex;
+    align-items: center;
+    
 }
 .material-icons-outlined{
     margin: 0 10px 0 0;
