@@ -24,6 +24,7 @@
     outline: none;
     font-weight: 500;
     margin: 0 10px 0 0;
+    color:  rgba(92, 10, 92, 0.07);
 }
 .header-button:hover{
     background-color: rgba(255, 255, 255, 0.1);
@@ -78,7 +79,7 @@ header nav ul{
 }
 header nav ul li{
     display: inline-block;
-    margin: 0  20px;    
+    margin: 0  20px;
 }
 header nav ul li a{
     color: var(--primary-color);
@@ -112,7 +113,7 @@ header nav ul li a:hover{
     margin: 50px 0 30px 0;
 }
 #portada #info-container #content ul{
-    padding: 0;    
+    padding: 0;
 }
 #portada #info-container #content li{
     display: flex;
@@ -129,8 +130,8 @@ header nav ul li a:hover{
 }
 #portada #info-container #content #button-container{
     display: flex;
-    align-items: center;   
-    margin: 40px 0 80px 0; 
+    align-items: center;
+    margin: 40px 0 80px 0;
 }
 #features-container{
     background-color: var(--accent-color);
